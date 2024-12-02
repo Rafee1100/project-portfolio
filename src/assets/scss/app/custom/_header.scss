@@ -1,0 +1,40 @@
+.intro {
+  margin-top: 40px;
+  padding: 30px;
+  .intro-section {
+    text-align: left;
+    margin-top: 90px;
+    .designer-headline{
+        margin-left: 200px;
+    }
+    .btn-hire-me{
+        background-color: #FD6F00;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        padding: 7px 25px;
+    }
+  }
+  .intro-image{
+    padding: 0px;
+    margin: 0px;
+    .person-image{
+        padding: 0px;
+        margin: 0px;
+        height: auto;
+        max-height: 80%; 
+        max-width: 80%; 
+        object-fit: cover; 
+    }
+    .rect-img{
+        position: relative;
+        top: 140px;
+        right: -13px;
+    }
+    .icon-image{
+        margin: 8px;
+        width: 32px;
+        height: 32px;
+    }
+  }
+}

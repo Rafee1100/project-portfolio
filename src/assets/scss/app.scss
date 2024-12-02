@@ -1,0 +1,18 @@
+@import "./app/custom/_navbar";
+@import "./app/custom/_button";
+@import './app/custom/_header';
+@import './app/custom/_font';
+@import './app/custom/about';
+@import './app/custom/service';
+@import './app/custom/projects';
+@import './app/custom/testimonial';
+@import './app/custom/contact';
+@import './app/custom/footer';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

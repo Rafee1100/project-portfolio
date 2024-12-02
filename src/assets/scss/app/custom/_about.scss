@@ -1,0 +1,31 @@
+.about-me {
+  margin-top: 40px;
+  padding: 30px;
+  .about-image {
+    padding: 0px;
+    margin: 0px;
+    .person-image {
+      padding: 0px;
+      margin: 0px;
+      height: auto;
+      max-height: 95%;
+      max-width: 95%;
+    }
+    .rect-img {
+      position: relative;
+      top: -500px;
+      left: 10px;
+    }
+  }
+  .about-section {
+    text-align: left;
+    padding: 25px;
+    margin-top: 25px;
+  }
+  .skills-section {
+    .skill{
+      // margin: 8px;
+      padding: 5px;
+    }
+  }
+}

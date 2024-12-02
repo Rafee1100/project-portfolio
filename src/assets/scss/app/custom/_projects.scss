@@ -1,0 +1,38 @@
+.project {
+  margin: 40px;
+  .project-header {
+    justify-content: center;
+    text-align: center;
+    .project-content {
+      margin: 0 auto;
+      max-width: 60%;
+    }
+    .project-filters {
+      .project-filter-btn {
+        padding: 10px 20px;
+        border-radius: 12px;
+        border: 0.4px solid #545454;
+        background-color: #f8f8f8;
+        margin: 8px;
+        &.active {
+          background-color: #fd6f00;
+        }
+      }
+    }
+  }
+  .projects-section {
+    .project-card {
+      border: none;
+      background-color: none;
+      margin: 10px;
+      .project-preview {
+        padding: 0px 35px;
+        background-color: #ffebdb;
+        border-radius: 20px;
+      }
+      .project-body{
+        text-align: left;
+      }
+    }
+  }
+}
